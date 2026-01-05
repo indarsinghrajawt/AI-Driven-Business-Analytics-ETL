@@ -52,7 +52,7 @@ The model is trained automatically after selecting the target column.
 - Target Distribution histogram
 - Residual Error analysis plot
   🗂️ Project Structure  
-*AI-Analytics-Dashboard/
+AI-Analytics-Dashboard/
 *|
 *├── app.py
 *├── requirements.txt
@@ -65,50 +65,33 @@ The model is trained automatically after selecting the target column.
 *│ ├── model.py
 *│ ├── visualization.py
 *│ └── summary.py
-*│
-*└── .streamlit/
-*└── config.toml
+│
+└── .streamlit/
+└── config.toml
+
 🧪 Sample Datasets for Testing
-
 You can test this project using datasets from Kaggle, such as:
-
 Students Performance Dataset
-
 House Price Dataset
-
 Sales / Store Sales Dataset
-
 Medical Insurance Dataset
-
 Car Price Dataset
 
 🎓 Who Can Use This Project?
-
 College students
-
 Beginners in Data Science
-
 AI & ML learners
-
 Internship applicants
-
 Analytics project practice
 
 💡 Learning Outcomes
-
 From this project, you will learn:
-
 How to build a Streamlit app
-
 How to preprocess CSV data
-
 How to train ML models
-
 How to evaluate model performance
-
 How to deploy apps on Streamlit Cloud
 
 👤 Author
-
 Indar Singh Rajawat
 
