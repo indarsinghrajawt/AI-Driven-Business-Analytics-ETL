@@ -71,27 +71,20 @@ AI-Analytics-Dashboard/
 └── config.toml
 
 🧪 Sample Datasets for Testing
-You can test this project using datasets from Kaggle, such as:
-Students Performance Dataset
-House Price Dataset
-Sales / Store Sales Dataset
-Medical Insurance Dataset
-Car Price Dataset
-
-🎓 Who Can Use This Project?
-College students
-Beginners in Data Science
-AI & ML learners
-Internship applicants
-Analytics project practice
+- You can test this project using datasets from Kaggle, such as:
+1. Students Performance Dataset
+2. House Price Dataset
+3.  Store Sales Dataset
+4. Medical Insurance Dataset
+5. Car Price Dataset
 
 💡 Learning Outcomes
-From this project, you will learn:
-How to build a Streamlit app
-How to preprocess CSV data
-How to train ML models
-How to evaluate model performance
-How to deploy apps on Streamlit Cloud
+- From this project, i am learn:
+1. How to build a Streamlit app
+2. How to preprocess CSV data
+3. How to train ML models
+4. How to evaluate model performance
+5. How to deploy apps on Streamlit Cloud
 
 👤 Author
 Indar Singh Rajawat
