@@ -54,9 +54,9 @@ The model is trained automatically after selecting the target column.
 ## 🗂️ Project Structure
    
 - AI-Analytics-Dashboard/
-*|
-*├── app.py
-*├── requirements.txt
+-|
+-├── app.py
+-├── requirements.txt
 *├── README.md
 *│
 *├── utils/
