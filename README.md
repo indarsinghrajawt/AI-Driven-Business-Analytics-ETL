@@ -1,139 +1,114 @@
 # 📊 AI Analytics Dashboard
 
-Live Demo 👉 https://ai-analytics-dashboard-2wonyrv4mc6feddsu2d2mi.streamlit.app/
+🔗 Live App:  
+https://ai-analytics-dashboard-2wonyrv4mc6feddsu2d2mi.streamlit.app/
 
-An **end-to-end AI-powered analytics dashboard** built using **Python, Streamlit, and Scikit-learn**.  
-This project accepts *any CSV*, runs ML modeling automatically, and displays **interactive insights & visualizations** for business decision support.
-
----
-
-## 🚀 Live Demo
-
-Try the live version of the app here:  
-🔗 https://ai-analytics-dashboard-2wonyrv4mc6feddsu2d2mi.streamlit.app/
-
-Upload any CSV with numeric columns and explore analytics instantly.
+This is a **student-level AI & Data Analytics project** built using **Python and Streamlit**.  
+The app allows users to upload **any CSV file** and automatically performs **data analysis, machine learning, and visualization**.
 
 ---
 
-## 🔥 Features
+## 🎯 Project Objective
 
-✔ Upload ANY CSV file  
-✔ Auto ML model training  
-✔ KPI dashboard (Total, Average, Best, Count)  
-✔ Performance Trend (rolling average)  
-✔ Actual vs Predicted plot  
-✔ Target distribution & Residual analysis  
-✔ Model performance metrics (MSE, RMSE, R²)  
-✔ Interactive executive summary  
-✔ Fast caching and deployment-ready UI
+The goal of this project is to:
+- Analyze CSV datasets easily
+- Apply machine learning automatically
+- Show insights in a simple dashboard
+- Help beginners understand end-to-end data analytics
 
 ---
 
-## 🧠 Machine Learning Details
+## 🚀 Features
 
-**Regression Model:** Random Forest Regressor  
-**Preprocessing:**  
-- Numeric columns → Standard Scaling  
-- Categorical columns → One-Hot Encoding  
-**Evaluation Metrics:**  
-- MSE (Mean Squared Error)  
-- RMSE (Root Mean Squared Error)  
-- R² Score
+- Upload any CSV file
+- Automatic detection of numeric columns
+- Select target column for prediction
+- Machine Learning model training
+- KPI metrics display
+- Interactive charts and plots
+- Model performance evaluation
+- Executive summary generation
+- Live deployment on Streamlit Cloud
 
 ---
 
-## 🗂️ Project Structure
+## 🧠 Machine Learning Used
 
+- **Model:** Random Forest Regressor  
+- **Task:** Regression  
+- **Metrics:**
+  - MSE (Mean Squared Error)
+  - RMSE (Root Mean Squared Error)
+  - R² Score
+
+The model is trained automatically after selecting the target column.
+
+
+📊 Visualizations Included
+
+- KPI Cards (Total, Average, Best Value, Count)
+- Performance Trend chart
+- Actual vs Predicted plot
+- Target Distribution histogram
+- Residual Error analysis plot
 AI-Analytics-Dashboard/
-*│
-*├── app.py
-*├── requirements.txt
-*├── README.md
-*│
-*├── utils/
-*│ ├── init.py
-*│ ├── data_loader.py
-*│ ├── preprocessing.py
-*│ ├── model.py
-*│ ├── visualization.py
-*│ └── summary.py
-*│
-*└── .streamlit/
-*└── config.toml
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── utils/
+│ ├── init.py
+│ ├── data_loader.py
+│ ├── preprocessing.py
+│ ├── model.py
+│ ├── visualization.py
+│ └── summary.py
+│
+└── .streamlit/
+└── config.toml
+🧪 Sample Datasets for Testing
 
+You can test this project using datasets from Kaggle, such as:
 
----
+Students Performance Dataset
 
-## ▶️ How to Run Locally
+House Price Dataset
 
-### 1️⃣ Clone the repository
+Sales / Store Sales Dataset
 
-```bash
-git clone https://github.com/your-username/AI-Analytics-Dashboard.git
-cd AI-Analytics-Dashboard
+Medical Insurance Dataset
 
-2️⃣ Install dependencies
-pip install -r requirements.txt
+Car Price Dataset
 
-3️⃣ Run the app
-streamlit run app.py
+🎓 Who Can Use This Project?
 
+College students
 
-Open in browser:
+Beginners in Data Science
 
-http://localhost:8501
+AI & ML learners
 
-📊 Example Use Cases
+Internship applicants
 
-Business KPI tracking
+Analytics project practice
 
-Sales & revenue forecasting
+💡 Learning Outcomes
 
-Educational performance analysis
+From this project, you will learn:
 
-Healthcare cost modeling
+How to build a Streamlit app
 
-General AutoML analytics for CSV datasets
+How to preprocess CSV data
 
-💼 Skills Highlight
+How to train ML models
 
-This project demonstrates:
-*✔ Python & data handling
-*✔ ML modeling with Scikit-Learn
-*✔ Interactive dashboards with Streamlit
-*✔ Data visualization with Plotly
-*✔ AutoML pipeline design
-*✔ Live cloud deployment
+How to evaluate model performance
 
-🧪 Suggested Test Datasets
-
-You can test the app with:
-
-Students Performance data
-
-House Prices Dataset
-
-Superstore / Sales data
-
-Medical Insurance Cost data
-
-Car Prices dataset
-
-(All are publicly available on Kaggle)
-
-📈 Future Improvements
-
-Classification model support
-
-Time-series forecasting
-
-Custom report exports (PDF/CSV)
-
-Deployment with CI/CD pipelines
-
-User authentication & multi-user support
+How to deploy apps on Streamlit Cloud
 
 👤 Author
 
 Indar Singh Rajawat
+## 🗂️ Project Structure
+
