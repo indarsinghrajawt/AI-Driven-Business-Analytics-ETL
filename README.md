@@ -1,54 +1,139 @@
 # 📊 AI Analytics Dashboard
 
-An **end-to-end AI & Machine Learning powered analytics dashboard** built using **Python, Streamlit, and Scikit-learn**.  
-This project can analyze **any CSV dataset** with numeric targets, perform **automatic preprocessing**, train an ML model, and generate **business-ready insights and visualizations**.
+Live Demo 👉 https://ai-analytics-dashboard-2wonyrv4mc6feddsu2d2mi.streamlit.app/
+
+An **end-to-end AI-powered analytics dashboard** built using **Python, Streamlit, and Scikit-learn**.  
+This project accepts *any CSV*, runs ML modeling automatically, and displays **interactive insights & visualizations** for business decision support.
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Live Demo
 
-The **AI Analytics Dashboard** is designed as a generic **AutoML platform** that:
-- Accepts any CSV file
-- Automatically detects numeric & categorical features
-- Applies preprocessing (scaling + encoding)
-- Trains a regression model
-- Evaluates model performance
-- Visualizes insights in a professional dashboard
+Try the live version of the app here:  
+🔗 https://ai-analytics-dashboard-2wonyrv4mc6feddsu2d2mi.streamlit.app/
 
-This project demonstrates **industry-level ML pipeline design, analytics thinking, and dashboard storytelling**.
+Upload any CSV with numeric columns and explore analytics instantly.
 
 ---
 
-## ✨ Key Features
+## 🔥 Features
 
-- 📂 Upload **any CSV file**
-- 🎯 Dynamic **target column selection**
-- 🤖 Automatic **machine learning model training**
-- 📊 Business KPIs (Total, Average, Best, Count)
-- 📈 Performance trend with rolling average
-- 🔍 Actual vs Predicted analysis
-- 🧮 Residual error analysis
-- 📊 Target distribution visualization
-- 📐 Model metrics: **MSE, RMSE, R²**
-- 🧠 Auto-generated **Executive Summary**
-- ⚡ Optimized with caching for fast performance
-- 🎨 Dark, enterprise-style dashboard UI
+✔ Upload ANY CSV file  
+✔ Auto ML model training  
+✔ KPI dashboard (Total, Average, Best, Count)  
+✔ Performance Trend (rolling average)  
+✔ Actual vs Predicted plot  
+✔ Target distribution & Residual analysis  
+✔ Model performance metrics (MSE, RMSE, R²)  
+✔ Interactive executive summary  
+✔ Fast caching and deployment-ready UI
 
 ---
 
 ## 🧠 Machine Learning Details
 
-- **Model Used:** Random Forest Regressor  
-- **Preprocessing:**
-  - Numeric features → Standard Scaling
-  - Categorical features → One-Hot Encoding
-- **Evaluation Metrics:**
-  - Mean Squared Error (MSE)
-  - Root Mean Squared Error (RMSE)
-  - R² Score
-- **Validation:** Train–Test Split (80/20)
+**Regression Model:** Random Forest Regressor  
+**Preprocessing:**  
+- Numeric columns → Standard Scaling  
+- Categorical columns → One-Hot Encoding  
+**Evaluation Metrics:**  
+- MSE (Mean Squared Error)  
+- RMSE (Root Mean Squared Error)  
+- R² Score
 
 ---
 
-## 📂 Project Structure
+## 🗂️ Project Structure
 
+AI-Analytics-Dashboard/
+*│
+*├── app.py
+*├── requirements.txt
+*├── README.md
+*│
+*├── utils/
+*│ ├── init.py
+*│ ├── data_loader.py
+*│ ├── preprocessing.py
+*│ ├── model.py
+*│ ├── visualization.py
+*│ └── summary.py
+*│
+*└── .streamlit/
+*└── config.toml
+
+
+---
+
+## ▶️ How to Run Locally
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/AI-Analytics-Dashboard.git
+cd AI-Analytics-Dashboard
+
+2️⃣ Install dependencies
+pip install -r requirements.txt
+
+3️⃣ Run the app
+streamlit run app.py
+
+
+Open in browser:
+
+http://localhost:8501
+
+📊 Example Use Cases
+
+Business KPI tracking
+
+Sales & revenue forecasting
+
+Educational performance analysis
+
+Healthcare cost modeling
+
+General AutoML analytics for CSV datasets
+
+💼 Skills Highlight
+
+This project demonstrates:
+*✔ Python & data handling
+*✔ ML modeling with Scikit-Learn
+*✔ Interactive dashboards with Streamlit
+*✔ Data visualization with Plotly
+*✔ AutoML pipeline design
+*✔ Live cloud deployment
+
+🧪 Suggested Test Datasets
+
+You can test the app with:
+
+Students Performance data
+
+House Prices Dataset
+
+Superstore / Sales data
+
+Medical Insurance Cost data
+
+Car Prices dataset
+
+(All are publicly available on Kaggle)
+
+📈 Future Improvements
+
+Classification model support
+
+Time-series forecasting
+
+Custom report exports (PDF/CSV)
+
+Deployment with CI/CD pipelines
+
+User authentication & multi-user support
+
+👤 Author
+
+Indar Singh Rajawat
