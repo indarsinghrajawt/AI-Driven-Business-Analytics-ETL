@@ -53,7 +53,7 @@ The model is trained automatically after selecting the target column.
 - Residual Error analysis plot
 ## 🗂️ Project Structure
    
-AI-Analytics-Dashboard/
+- AI-Analytics-Dashboard/
 *|
 *├── app.py
 *├── requirements.txt
