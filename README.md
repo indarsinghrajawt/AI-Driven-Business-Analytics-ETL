@@ -54,21 +54,21 @@ The model is trained automatically after selecting the target column.
 ## 🗂️ Project Structure
    
 - AI-Analytics-Dashboard/
--|
--├── app.py
--├── requirements.txt
-*├── README.md
-*│
-*├── utils/
-*│ ├── init.py
-*│ ├── data_loader.py
-*│ ├── preprocessing.py
-*│ ├── model.py
-*│ ├── visualization.py
-*│ └── summary.py
-│
-└── .streamlit/
-└── config.toml
+* |
+* ├── app.py
+   ├── requirements.txt
+* ├── README.md
+* │
+* ├── utils/
+* │ ├── init.py
+* │ ├── data_loader.py
+* │ ├── preprocessing.py
+* │ ├── model.py
+* │ ├── visualization.py
+* │ └── summary.py
+* │
+* └── .streamlit/
+* └── config.toml
 
 🧪 Sample Datasets for Testing
 - You can test this project using datasets from Kaggle, such as:
