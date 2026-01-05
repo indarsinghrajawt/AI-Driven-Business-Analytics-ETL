@@ -51,7 +51,8 @@ The model is trained automatically after selecting the target column.
 - Actual vs Predicted plot
 - Target Distribution histogram
 - Residual Error analysis plot
-  🗂️ Project Structure  
+## 🗂️ Project Structure
+   
 AI-Analytics-Dashboard/
 *|
 *├── app.py
