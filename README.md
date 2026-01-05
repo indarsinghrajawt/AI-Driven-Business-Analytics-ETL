@@ -51,22 +51,23 @@ The model is trained automatically after selecting the target column.
 - Actual vs Predicted plot
 - Target Distribution histogram
 - Residual Error analysis plot
-AI-Analytics-Dashboard/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── utils/
-│ ├── init.py
-│ ├── data_loader.py
-│ ├── preprocessing.py
-│ ├── model.py
-│ ├── visualization.py
-│ └── summary.py
-│
-└── .streamlit/
-└── config.toml
+  🗂️ Project Structure  
+*AI-Analytics-Dashboard/
+*|
+*├── app.py
+*├── requirements.txt
+*├── README.md
+*│
+*├── utils/
+*│ ├── init.py
+*│ ├── data_loader.py
+*│ ├── preprocessing.py
+*│ ├── model.py
+*│ ├── visualization.py
+*│ └── summary.py
+*│
+*└── .streamlit/
+*└── config.toml
 🧪 Sample Datasets for Testing
 
 You can test this project using datasets from Kaggle, such as:
@@ -110,5 +111,4 @@ How to deploy apps on Streamlit Cloud
 👤 Author
 
 Indar Singh Rajawat
-## 🗂️ Project Structure
 
