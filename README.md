@@ -1,4 +1,5 @@
-# AI-Powered Analytics Dashboard
+# # AI-Driven Business Analytics & ETL Platform
+
 
 🔗 Live App:  
 https://ai-analytics-dashboard-2wonyrv4mc6feddsu2d2mi.streamlit.app/
