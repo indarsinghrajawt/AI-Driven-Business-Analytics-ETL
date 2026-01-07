@@ -1,5 +1,4 @@
-# # AI-Driven Business Analytics & ETL Platform
-
+# AI-Driven Business Analytics & ETL Platform
 
 🔗 Live App:  
 https://ai-analytics-dashboard-2wonyrv4mc6feddsu2d2mi.streamlit.app/
@@ -7,17 +6,17 @@ https://ai-analytics-dashboard-2wonyrv4mc6feddsu2d2mi.streamlit.app/
 ---
 
 ## 📌 Project Overview
-This project is an AI-powered data analytics application built using Python and Streamlit.
+This project is an AI-driven data analytics platform built using Python and Streamlit.
 It allows users to upload any CSV file and automatically performs data analysis,
 machine learning, and interactive visualization through a simple dashboard.
 
-The application demonstrates an end-to-end analytics workflow, including data ingestion,
-cleaning, transformation, modeling, and insight generation.
+The application demonstrates an end-to-end analytics workflow, including
+data ingestion, data cleaning, transformation, modeling, and insight generation.
 
 ---
 
-## 🎯 Project Objective
-The objectives of this project are to:
+## 🎯 Project Objectives
+The key objectives of this project are to:
 - Analyze CSV datasets easily without manual coding
 - Automatically apply machine learning models
 - Visualize insights through an interactive dashboard
@@ -39,12 +38,13 @@ The objectives of this project are to:
 ---
 
 ## 🧠 Machine Learning Details
-- Model Used: Random Forest Regressor
-- Task: Regression
-- Evaluation Metrics:
-  - Mean Squared Error (MSE)
-  - Root Mean Squared Error (RMSE)
-  - R² Score
+- Model Used: Random Forest Regressor  
+- Task: Regression  
+
+Evaluation Metrics:
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score  
 
 The model is trained automatically after the user selects the target numeric column.
 
@@ -60,14 +60,14 @@ The model is trained automatically after the user selects the target numeric col
 ---
 
 ## 🔄 ETL-Style Workflow
-- Extract: User-uploaded CSV data
-- Transform: Data cleaning, preprocessing, and feature selection
-- Load: Processed data used for analytics, visualization, and modeling
+- Extract: User-uploaded CSV data  
+- Transform: Data cleaning, preprocessing, and feature selection  
+- Load: Processed data used for analytics, visualization, and modeling  
 
 ---
 
 ## 🗂️ Project Structure
-AI-Analytics-Dashboard/
+AI-Driven-Business-Analytics-ETL/
 │
 ├── app.py
 ├── requirements.txt
@@ -97,7 +97,7 @@ You can test this application using datasets from Kaggle, such as:
 ---
 
 ## 💡 Learning Outcomes
-From this project, I learned:
+Through this project, I learned:
 - How to build interactive applications using Streamlit
 - How to preprocess and clean CSV data
 - How to train and evaluate machine learning models
